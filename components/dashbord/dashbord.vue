@@ -6,13 +6,13 @@
   <div class="flex flex-col items-center md-60 min-h-screen bg-gray-100">
     <div class="w-full py-4">
       <div class="flex justify-center items-center space-x-4 mb-4">
-        <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg focus:outline-none focus:ring focus:border-blue-300">
+        <button class="bg-blue-500 hover:bg-blue-600 text-white font-serif px-6 py-3 rounded-lg focus:outline-none focus:ring focus:border-blue-300">
           Aktien Kaufen
         </button>
-        <button class="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-lg focus:outline-none focus:ring focus:border-green-300">
+        <button class="bg-green-500 hover:bg-green-600 text-white font-serif px-6 py-3 rounded-lg focus:outline-none focus:ring focus:border-green-300">
           Aktien Preis
         </button>
-        <button class="bg-red-500 hover:bg-red-600 text-white font-semibold px-6 py-3 rounded-lg focus:outline-none focus:ring focus:border-red-300">
+        <button class="bg-red-500 hover:bg-red-600 text-white font-serif px-6 py-3 rounded-lg focus:outline-none focus:ring focus:border-red-300">
           Aktien Name
         </button>
       </div>
