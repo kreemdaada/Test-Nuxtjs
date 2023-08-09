@@ -1,11 +1,11 @@
 <template>
   <div class="flex items-center justify-center min-h-screen bg-gray-100">
-    <div class="w-96 bg-white p-8 shadow-lg rounded-lg">
-      <h1 class="text-3xl font-semibold mb-6">Login</h1>
+    <div class="w-100 bg-white p-8 rounded-lg">
+      <h1 class="text-3xl font-metalik mb-6">Anmelden</h1>
       <form @submit.prevent="login">
         <input v-model="loginData.email" type="email" placeholder="E-Mail" class="input" />
         <input v-model="loginData.password" type="password" placeholder="Password" class="input" />
-        <button type="submit" class="button-blue">Log In</button>
+        <button type="submit" class="button-blue">Anmelden</button>
       </form>
     </div>
   </div>
@@ -20,13 +20,9 @@ const loginData = ref({
   password: '',
 });
 
-const showloginForm = () => {
-  showLoginForm.value = true;
-};
 
 const login = () => {
   console.log('Login data:', loginData.value);
-  // Perform login logic using loginData.email and loginData.password
 };
 </script>
 
