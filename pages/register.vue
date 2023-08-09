@@ -26,10 +26,6 @@
     confirmPassword: '',
   });
   
-  const showregisterForm = () => {
-  showRegisterForm.value = false;
-  };
-  
   const register = () => {
     console.log('Registration data:', registrationData.value);
   };
