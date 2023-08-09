@@ -11,24 +11,23 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue';
 
-const showRegistrationForm = ref(false);
+const showLoginForm = ref(false);
 const loginData = ref({
   email: '',
   password: '',
 });
 
-const showRegisterForm = () => {
-  showRegistrationForm.value = true;
+const showloginForm = () => {
+  showLoginForm.value = true;
 };
 
 const login = () => {
   console.log('Login data:', loginData.value);
   // Perform login logic using loginData.email and loginData.password
 };
-
 </script>
 
 <style scoped>

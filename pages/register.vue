@@ -17,7 +17,7 @@
   <script setup>
   import { ref } from 'vue';
   
-  const showRegistrationForm = ref(false);
+  const showRegisterForm = ref(false);
   const registrationData = ref({
     firstName: '',
     lastName: '',
@@ -26,13 +26,12 @@
     confirmPassword: '',
   });
   
-  const showLoginForm = () => {
-    showRegistrationForm.value = false;
+  const showregisterForm = () => {
+  showRegisterForm.value = false;
   };
   
   const register = () => {
     console.log('Registration data:', registrationData.value);
-    // Perform registration logic using registrationData
   };
   
   </script>
