@@ -1,5 +1,8 @@
 <template>
   <div>
+  <cards/> 
+  </div>
+  <div>
   <Navbar/>
   </div>
   <div>
@@ -24,7 +27,7 @@
         </div>
       </div>
       <div class="px-4">
-        <canvas ref="myChartCanvas" class="w-full h-80"></canvas>
+        <canvas ref="myChartCanvas" class="h-80"></canvas>
       </div>
     </div>
   </div>
@@ -33,6 +36,8 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 import { Chart, registerables } from 'chart.js';
+
+
 Chart.register(...registerables);
 
 const myChartCanvas = ref<HTMLCanvasElement | null>(null);
@@ -83,10 +88,7 @@ function createChart(canvas: HTMLCanvasElement | null) {
 </script>
 
 <style scoped>
-/* Fügen Sie benutzerdefinierte Stile für den Diagrammcontainer hinzu */
-.w-96 {
-  width: 800px; /* Passen Sie die Breite nach Bedarf an */
-}
+
 
 .h-80 {
   height: 400px; /* Passen Sie die Höhe nach Bedarf an */
@@ -98,7 +100,7 @@ function createChart(canvas: HTMLCanvasElement | null) {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #fff; /* Ändern Sie dies in Ihre gewünschte Hintergrundfarbe für die Navbar */
-  z-index: 999; /* Stellen Sie sicher, dass die Navbar über anderen Elementen angezeigt wird */
+  background-color: #fff; 
+  z-index: 999; 
 }
 </style>
