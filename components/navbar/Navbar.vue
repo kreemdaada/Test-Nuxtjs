@@ -1,12 +1,11 @@
 <template>
-  <header>
+  <header flex items-start calss="bg-gray-900">
     <div>
-      <img :src="'assets/img/icons8-menu.svg'" alt="navbar">
+      <img :class="'h-8 bg-slate-100'"  :src="'assets/img/richtung.png'" alt="hallo">
     </div>
     <div>
-      <button type="button">
-        <svg viewBox="0 0 50 50" width="50px" height="50px">
-        </svg>
+      <button type="button" class="text-gray-500 hover:text-white focus:">
+        
       </button>
     </div>
   </header>
