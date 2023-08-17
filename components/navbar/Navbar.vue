@@ -1,7 +1,7 @@
 <template>
   <header>
     <div>
-      <img src="assets/icons8-menu.svg" alt="hallo">
+      <img :src="'assets/img/icons8-menu.svg'" alt="navbar">
     </div>
     <div>
       <button type="button">
