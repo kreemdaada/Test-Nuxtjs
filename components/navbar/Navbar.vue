@@ -1,22 +1,21 @@
 <template>
-<header>
-  <div>
-    <img :src="i/icons8-menu.svg" alt="hallo">
-  </div>
-  <div>
-    <button type="button">
-      <svg view-box="0 0 50 50">
-        pa
-      </svg>
-    </button>
-  </div>
-</header>
+  <header>
+    <div>
+      <img src="assets/icons8-menu.svg" alt="hallo">
+    </div>
+    <div>
+      <button type="button">
+        <svg viewBox="0 0 50 50" width="50px" height="50px">
+        </svg>
+      </button>
+    </div>
+  </header>
 </template>
 
 <script>
 export default {
-  data( ){
-    return {}
+  data() {
+    return {};
   },
-}
+};
 </script>
