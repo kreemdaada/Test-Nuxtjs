@@ -19,6 +19,7 @@
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@tailwindcss/typography": "^0.5.9",
-    "chart.js": "^4.3.3"
+    "chart.js": "^4.3.3",
+    "nuxt-icons": "^3.2.1"
   }
 }

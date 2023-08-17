@@ -1,6 +1,8 @@
 <template>
+
 <div>
-<dashbord/>
+    <dashbord/>
 </div>
 <div><cards/></div>
+
 </template>

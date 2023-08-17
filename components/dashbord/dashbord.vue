@@ -1,12 +1,9 @@
 <template>
   <div>
-  <cards/> 
-  </div>
+  <Navbar/> 
+</div>  
   <div>
-  <Navbar/>
-  </div>
-  <div>
-    <div class="flex-col space-between md-60 bg-gray-100">
+    <div class="space-between md-60 flex-row ">
       <div class="py-4">
         <div class="flex justify-center items-center space-x-4 mb-4">
           <button
@@ -25,7 +22,7 @@
             Aktien Name
           </button>
         </div>
-      </div>
+      </div> 
       <div class="px-4">
         <canvas ref="myChartCanvas" class="h-80"></canvas>
       </div>
