@@ -4,14 +4,14 @@
       <img :class="'h-8 bg-slate-100'"  :src="'assets/img/richtung.png'" alt="hallo">
     </div>
     <div>
-      <button type="button" class="text-gray-500 hover:text-white focus:">
+      <button type="button" class="text-gay-500 hover:text-white ">
         
       </button>
     </div>
   </header>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   data() {
     return {};
